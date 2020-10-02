@@ -1,0 +1,30 @@
+name: hydrots
+channels:
+ - conda-forge
+dependencies:
+ - python=3.8*
+ - pip=20
+ - appmode
+ - dask
+ - dask-jobqueue
+ - fsspec
+ - gcsfs
+ - s3fs
+ - geopandas
+ - holoviews
+ - hvplot
+ - ipywidgets
+ - ipyleaflet
+ - jupyter-panel-proxy
+ - plotly
+ - dash
+ - matplotlib-base
+ - numpy
+ - flask
+ - pandas
+ - panel
+ - scipy
+ - xarray
+ - xlrd
+ - zarr
+
