@@ -307,5 +307,6 @@ def save_current_table(tablerows,href1):
     #     return [html.Li(file_download_link(filename)) for filename in files]
 
 if __name__ == '__main__':
-    app.run()
     # app.run_server(host='127.0.0.1', port=8020, debug=True)
+    server = app.server  # the Flask app
+    server.run()
